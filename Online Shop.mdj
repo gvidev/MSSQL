@@ -5326,23 +5326,6 @@
 									"subViews": [
 										{
 											"_type": "UMLAttributeView",
-											"_id": "AAAAAAGFk3xoSOqb6qQ=",
-											"_parent": {
-												"$ref": "AAAAAAGFk3xJe+ZcoMM="
-											},
-											"model": {
-												"$ref": "AAAAAAGFk3xoPepuyLA="
-											},
-											"font": "Arial;13;0",
-											"left": 477,
-											"top": 1094,
-											"width": 94.6435546875,
-											"height": 13,
-											"text": "+value: String",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLAttributeView",
 											"_id": "AAAAAAGFk4T8ABqdL/s=",
 											"_parent": {
 												"$ref": "AAAAAAGFk3xJe+ZcoMM="
@@ -5352,7 +5335,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 477,
-											"top": 1109,
+											"top": 1094,
 											"width": 94.6435546875,
 											"height": 13,
 											"text": "+productId: int",
@@ -5369,10 +5352,27 @@
 											},
 											"font": "Arial;13;0",
 											"left": 477,
-											"top": 1124,
+											"top": 1109,
 											"width": 94.6435546875,
 											"height": 13,
 											"text": "+specsId: int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGFk3xoSOqb6qQ=",
+											"_parent": {
+												"$ref": "AAAAAAGFk3xJe+ZcoMM="
+											},
+											"model": {
+												"$ref": "AAAAAAGFk3xoPepuyLA="
+											},
+											"font": "Arial;13;0",
+											"left": 477,
+											"top": 1124,
+											"width": 94.6435546875,
+											"height": 13,
+											"text": "+value: String",
 											"horizontalAlignment": 0
 										}
 									],
@@ -8191,15 +8191,6 @@
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
-							"_id": "AAAAAAGFk3xoPepuyLA=",
-							"_parent": {
-								"$ref": "AAAAAAGFk3xJe+ZUm9s="
-							},
-							"name": "value",
-							"type": "String"
-						},
-						{
-							"_type": "UMLAttribute",
 							"_id": "AAAAAAGFk4T7+hp50DQ=",
 							"_parent": {
 								"$ref": "AAAAAAGFk3xJe+ZUm9s="
@@ -8215,6 +8206,15 @@
 							},
 							"name": "specsId",
 							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGFk3xoPepuyLA=",
+							"_parent": {
+								"$ref": "AAAAAAGFk3xJe+ZUm9s="
+							},
+							"name": "value",
+							"type": "String"
 						}
 					]
 				}
